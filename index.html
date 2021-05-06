@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 200px;
+  background-image: url("index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+.b{
+    height:550px;
+    width:auto;
+  }
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 1024px) {
+  .row, .navbar {   
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 1023px) {
+  .row, .navbar {   
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+<!-- Note -->
+
+
+<!-- Header -->
+<div class="header">
+  <h1>My Website</h1>
+  <p>With a <b>flexible</b> layout.</p>
+
+</div>
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <div class="fakeimg b" >Image</div>
+  </div>
+
+  <div class="main">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non quidem dignissimos odit, cum quas quaerat ex laboriosam harum voluptatem iusto iste, sed eum perspiciatis sequi libero incidunt mollitia possimus.</p>    
+   
+</div>
+</div>
+
+
+</body>
+</html>
